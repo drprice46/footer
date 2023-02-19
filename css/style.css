@@ -1,0 +1,33 @@
+*{
+    box-sizing:border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.menu{}
+.menu_inner{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav li a{
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;   
+    padding: 10px 15px;
+}
+.nav li a:hover{
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+    
+}
